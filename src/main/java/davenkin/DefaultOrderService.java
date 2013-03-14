@@ -19,12 +19,7 @@ public class DefaultOrderService  implements OrderService{
     private JmsTemplate jmsTemplate;
     @Override
     public void makeOrder(Order order) {
-        jmsTemplate.send(new MessageCreator() {
-            @Override
-            public Message createMessage(Session session) throws JMSException {
-                 return session.createTextMessage("this is a test message");
-            }
-        });
+      jmsTemplate.convertAndSend(order);
     }
 
     @Required

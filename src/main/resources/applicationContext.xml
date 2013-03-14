@@ -2,10 +2,12 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:component="http://www.springframework.org/schema/context"
+       xmlns:oxm="http://www.springframework.org/schema/oxm"
        xmlns:jee="http://www.springframework.org/schema/jee"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
-        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd">
+        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd
+        http://www.springframework.org/schema/oxm http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd">
 
 
     <bean id="jmsConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
@@ -19,14 +21,25 @@
             <ref local="jmsConnectionFactory"/>
         </property>
         <property name="defaultDestination" ref="orderQueue"/>
+        <property name="messageConverter" ref="oxmMessageConverter"/>
     </bean>
 
     <bean id="orderQueue" class="org.apache.activemq.command.ActiveMQQueue">
-        <constructor-arg value="ORDER.QUEUE" />
+        <constructor-arg value="ORDER.QUEUE"/>
     </bean>
 
     <bean id="orderService" class="davenkin.DefaultOrderService">
         <property name="jmsTemplate" ref="jmsTemplate"/>
     </bean>
+
+    <bean id="oxmMessageConverter"
+          class="org.springframework.jms.support.converter.MarshallingMessageConverter">
+        <property name="marshaller" ref="marshaller"/>
+        <property name="unmarshaller" ref="marshaller"/>
+    </bean>
+
+    <oxm:jaxb2-marshaller id="marshaller">
+        <oxm:class-to-be-bound name="davenkin.Order"/>
+    </oxm:jaxb2-marshaller>
 
 </beans>

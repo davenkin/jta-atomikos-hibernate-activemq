@@ -1,10 +1,27 @@
 package davenkin;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "Order")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Order {
+
+    @XmlElement(name = "Id",required = true)
     private long id;
+
+    @XmlElement(name = "ItemName",required = true)
     private String itemName;
+
+    @XmlElement(name = "Price",required = true)
     private double price;
+
+    @XmlElement(name = "BuyerName",required = true)
     private String buyerName;
+
+    @XmlElement(name = "MailAddress",required = true)
     private String mailAddress;
 
     public Order() {
