@@ -2,6 +2,11 @@ package davenkin;
 
 import org.springframework.beans.factory.annotation.Required;
 import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
+
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,7 +19,12 @@ public class DefaultOrderService  implements OrderService{
     private JmsTemplate jmsTemplate;
     @Override
     public void makeOrder(Order order) {
-        System.out.println(order.getBuyerName());
+        jmsTemplate.send(new MessageCreator() {
+            @Override
+            public Message createMessage(Session session) throws JMSException {
+                 return session.createTextMessage("this is a test message");
+            }
+        });
     }
 
     @Required

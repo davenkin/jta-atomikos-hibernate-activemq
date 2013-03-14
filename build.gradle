@@ -14,6 +14,8 @@ configurations {
     all*.exclude group: 'com.sun.jdmk', module: 'jmxtools'
     all*.exclude group: 'com.sun.jmx', module: 'jmxri'
     all*.exclude group: 'javax.transaction', module: 'jta'
+    all*.exclude group: 'org.apache.activemq', module: 'activemq-amqp'
+
 }
 
 dependencies {
@@ -25,7 +27,7 @@ dependencies {
     compile "org.springframework:spring-jdbc:3.2.0.RELEASE"
     compile "org.springframework:spring-orm:3.2.0.RELEASE"
     compile "org.springframework:spring-jms:3.2.0.RELEASE"
-    compile 'org.apache.activemq:activemq-core:5.7.0'
+    compile 'org.apache.activemq:activemq-all:5.8.0'
     compile 'mysql:mysql-connector-java:5.1.23'
     compile 'com.atomikos:transactions-essentials-all:3.6.4'
     testCompile "org.springframework:spring-test:3.2.0.RELEASE"
