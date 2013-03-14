@@ -19,7 +19,7 @@ configurations {
 }
 
 dependencies {
-    compile 'org.slf4j:slf4j-log4j12:1.7.2'
+    compile 'org.slf4j:slf4j-api:1.7.2'
     compile "org.springframework:spring-beans:3.2.0.RELEASE"
     compile "org.springframework:spring-context:3.2.0.RELEASE"
     compile "org.springframework:spring-context-support:3.2.0.RELEASE"
