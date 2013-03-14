@@ -6,6 +6,7 @@
 *.ear
 
 target
+activemq-data
 *.iml
 *.ipr
 *.iws

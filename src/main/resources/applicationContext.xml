@@ -18,11 +18,15 @@
         <property name="connectionFactory">
             <ref local="jmsConnectionFactory"/>
         </property>
-        <property name="defaultDestination" ref="testQueue"/>
+        <property name="defaultDestination" ref="orderQueue"/>
     </bean>
 
-    <bean id="testQueue" class="org.apache.activemq.command.ActiveMQQueue">
-        <constructor-arg value="TEST.QUEUE" />
+    <bean id="orderQueue" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg value="ORDER.QUEUE" />
+    </bean>
+
+    <bean id="orderService" class="davenkin.DefaultOrderService">
+        <property name="jmsTemplate" ref="jmsTemplate"/>
     </bean>
 
 </beans>
