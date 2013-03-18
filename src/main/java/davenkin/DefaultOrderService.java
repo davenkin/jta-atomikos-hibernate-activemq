@@ -1,12 +1,10 @@
 package davenkin;
 
+import org.hibernate.SessionFactory;
+import org.hibernate.classic.Session;
 import org.springframework.beans.factory.annotation.Required;
 import org.springframework.jms.core.JmsTemplate;
-import org.springframework.jms.core.MessageCreator;
-
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.Session;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,13 +15,24 @@ import javax.jms.Session;
  */
 public class DefaultOrderService  implements OrderService{
     private JmsTemplate jmsTemplate;
+    private SessionFactory sessionFactory;
+
     @Override
+    @Transactional
     public void makeOrder(Order order) {
-      jmsTemplate.convertAndSend(order);
+//        Session session = sessionFactory.getCurrentSession();
+//        session.save(order);
+        jmsTemplate.convertAndSend(order);
+
     }
 
     @Required
     public void setJmsTemplate(JmsTemplate jmsTemplate) {
         this.jmsTemplate = jmsTemplate;
+    }
+
+    @Required
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
     }
 }

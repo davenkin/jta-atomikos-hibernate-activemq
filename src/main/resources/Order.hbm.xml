@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="davenkin.Order" table="USER_ORDER" catalog="ORDERS">
+        <id name="id" type="long">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="itemName" type="string">
+            <column name="ITEM_NAME" />
+        </property>
+        <property name="price" type="double">
+            <column name="PRICE"/>
+        </property>
+        <property name="buyerName" type="string">
+            <column name="BUYER_NAME"/>
+        </property>
+        <property name="mailAddress" type="string">
+            <column name="MAIL_ADDRESS"/>
+        </property>
+    </class>
+</hibernate-mapping>

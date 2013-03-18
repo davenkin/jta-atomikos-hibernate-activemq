@@ -22,7 +22,7 @@ public class DefaultOrderServiceTest {
     @Test
     public void makeOrder(){
         Order order = new Order();
-        order.setId(123l);
+//        order.setId(123l);
         order.setBuyerName("davenkin");
         order.setItemName("book");
         order.setMailAddress("chengdu");
