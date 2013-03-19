@@ -17,6 +17,7 @@ import java.util.Map;
 import java.util.Random;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertNull;
 
 /**
  * Created with IntelliJ IDEA.
@@ -68,6 +69,15 @@ public class DefaultOrderServiceTest {
         String dbItemName = jdbcTemplate.queryForObject("SELECT ITEM_NAME FROM USER_ORDER", String.class);
         String messageItemName = ((Order) jmsTemplate.receiveAndConvert()).getItemName();
         assertEquals(dbItemName, messageItemName);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void failToMakeOrder()
+    {
+        orderService.makeOrder(null);
+        JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
+        assertEquals(0, jdbcTemplate.queryForInt("SELECT COUNT(*) FROM USER_ORDER"));
+        assertNull(jmsTemplate.receiveAndConvert());
     }
 
     private Order createOrder() {
