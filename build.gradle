@@ -29,6 +29,7 @@ dependencies {
     compile "org.springframework:spring-oxm:3.2.0.RELEASE"
     compile "org.springframework:spring-jms:3.2.0.RELEASE"
     compile "javax.xml.bind:jaxb-api:2.2.2"
+    compile 'org.hsqldb:hsqldb:2.2.9'
     compile 'org.apache.activemq:activemq-all:5.8.0'
     compile 'mysql:mysql-connector-java:5.1.23'
     compile 'com.atomikos:transactions-essentials-all:3.6.4'

@@ -7,6 +7,10 @@
 
 target
 activemq-data
+db-hsql
+*.epoch
+*.log
+*.out
 *.iml
 *.ipr
 *.iws

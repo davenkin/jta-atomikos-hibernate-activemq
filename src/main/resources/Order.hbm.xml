@@ -3,7 +3,7 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="davenkin.Order" table="USER_ORDER" catalog="ORDERS">
+    <class name="davenkin.Order" table="USER_ORDER">
         <id name="id" type="long">
             <column name="ID" />
             <generator class="increment" />

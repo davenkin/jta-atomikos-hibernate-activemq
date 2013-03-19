@@ -29,24 +29,32 @@
     </bean>
     <tx:annotation-driven transaction-manager="jtaTransactionManager" />
 
-    <bean id="dataSource" class="com.atomikos.jdbc.AtomikosDataSourceBean"
-          init-method="init" destroy-method="close">
-        <description>mysql xa datasource</description>
-        <property name="uniqueResourceName">
-            <value>mysql_ds</value>
-        </property>
-        <property name="xaDataSourceClassName">
-            <value>com.mysql.jdbc.jdbc2.optional.MysqlXADataSource</value>
-        </property>
-        <property name="xaProperties">
-            <props>
-                <prop key="user">root</prop>
-                <prop key="URL">jdbc:mysql://localhost:3306/ORDERS</prop>
-            </props>
-        </property>
-        <property name="testQuery">
-            <value>select 1</value>
-        </property>
+    <!--<bean id="dataSource" class="com.atomikos.jdbc.AtomikosDataSourceBean"-->
+          <!--init-method="init" destroy-method="close">-->
+        <!--<description>mysql xa datasource</description>-->
+        <!--<property name="uniqueResourceName">-->
+            <!--<value>mysql_ds</value>-->
+        <!--</property>-->
+        <!--<property name="xaDataSourceClassName">-->
+            <!--<value>com.mysql.jdbc.jdbc2.optional.MysqlXADataSource</value>-->
+        <!--</property>-->
+        <!--<property name="xaProperties">-->
+            <!--<props>-->
+                <!--<prop key="user">root</prop>-->
+                <!--<prop key="URL">jdbc:mysql://localhost:3306/ORDERS</prop>-->
+            <!--</props>-->
+        <!--</property>-->
+        <!--<property name="testQuery">-->
+            <!--<value>select 1</value>-->
+        <!--</property>-->
+    <!--</bean>-->
+    <bean id="dataSource" class="com.atomikos.jdbc.nonxa.AtomikosNonXADataSourceBean">
+        <property name="uniqueResourceName" value="hsqldb" />
+        <property name="driverClassName" value="org.hsqldb.jdbcDriver" />
+        <property name="url" value="jdbc:hsqldb:hsql://localhost/JTAORDER" />
+        <property name="user" value="sa" />
+        <property name="password" value="" />
+        <property name="poolSize" value="3" />
     </bean>
 
 
@@ -91,9 +99,10 @@
         </property>
         <property name="hibernateProperties">
             <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect
+                <prop key="hibernate.dialect">org.hibernate.dialect.HSQLDialect
                 </prop>
                 <prop key="hibernate.show_sql">true</prop>
+                <!--<prop key="hibernate.hbm2ddl.auto">update</prop>-->
                 <prop key="hibernate.max_fetch_depth">2</prop>
                 <prop key="hibernate.transaction.factory_class">com.atomikos.icatch.jta.hibernate3.AtomikosJTATransactionFactory</prop>
                 <prop key="hibernate.transaction.manager_lookup_class">com.atomikos.icatch.jta.hibernate3.TransactionManagerLookup</prop>
