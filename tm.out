@@ -461,3 +461,560 @@ com.atomikos.datasource.ResourceException: XA resource 'mysql_ds': resume for XI
 13-03-18 23:11:18,479 [Outgoing Connection [ff0497ed-2442-40af-98ca-598abefd3c46 port:57276, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]:0 worker] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog12.log
 13-03-18 23:11:19,801 [Outgoing Connection [ff0497ed-2442-40af-98ca-598abefd3c46 port:57276, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]:0 worker] mysql_ds: refreshed XAResource
 13-03-18 23:11:20,532 [Outgoing Connection [ff0497ed-2442-40af-98ca-598abefd3c46 port:57276, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]:0 worker] XAactiveMQ: refreshed XAResource
+13-03-19 20:05:10,969 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog13.log
+13-03-19 20:05:11,117 [main] Done read of logfile
+13-03-19 20:05:11,118 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog13.log
+13-03-19 20:05:12,781 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:05:14,064 [main] Driver class 'com.mysql.jdbc.jdbc2.optional.MysqlDataSource' does not seem to be a valid JDBC driver - please check the spelling and verify your JDBC vendor's documentation
+13-03-19 20:05:15,383 [main] Driver class 'com.mysql.jdbc.jdbc2.optional.MysqlDataSource' does not seem to be a valid JDBC driver - please check the spelling and verify your JDBC vendor's documentation
+13-03-19 20:08:21,312 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog14.log
+13-03-19 20:08:21,314 [main] Done read of logfile
+13-03-19 20:08:21,315 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog14.log
+13-03-19 20:08:22,252 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:08:26,469 [Atomikos:4] Forcing close of pending statement: com.mysql.jdbc.JDBC4PreparedStatement@19d9c0d: EXCEPTION: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after statement closed.
+13-03-19 20:08:26,472 [Atomikos:4] Forcing close of pending statement: com.mysql.jdbc.JDBC4PreparedStatement@187275d: EXCEPTION: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after statement closed.
+13-03-19 20:09:33,407 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog15.log
+13-03-19 20:09:33,408 [main] Done read of logfile
+13-03-19 20:09:33,410 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog15.log
+13-03-19 20:09:34,377 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:11:03,434 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog16.log
+13-03-19 20:11:03,636 [main] Done read of logfile
+13-03-19 20:11:03,638 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog16.log
+13-03-19 20:11:04,837 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:24:02,940 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog17.log
+13-03-19 20:24:03,092 [main] Done read of logfile
+13-03-19 20:24:03,094 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog17.log
+13-03-19 20:24:06,841 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:24:14,199 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog18.log
+13-03-19 20:24:14,373 [main] Done read of logfile
+13-03-19 20:24:14,375 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog18.log
+13-03-19 20:24:18,117 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:24:44,854 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog19.log
+13-03-19 20:24:45,021 [main] Done read of logfile
+13-03-19 20:24:45,023 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog19.log
+13-03-19 20:24:48,826 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:25:21,052 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog20.log
+13-03-19 20:25:21,205 [main] Done read of logfile
+13-03-19 20:25:21,207 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog20.log
+13-03-19 20:25:24,889 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:25:34,736 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog21.log
+13-03-19 20:25:34,882 [main] Done read of logfile
+13-03-19 20:25:34,884 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog21.log
+13-03-19 20:25:38,738 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:25:39,931 [Atomikos:4] Forcing close of pending statement: com.mysql.jdbc.JDBC4PreparedStatement@1e5cf0: EXCEPTION: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after statement closed.
+13-03-19 20:25:39,933 [Atomikos:4] Forcing close of pending statement: com.mysql.jdbc.JDBC4PreparedStatement@1eb0cd0: EXCEPTION: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after statement closed.
+13-03-19 20:26:16,215 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog22.log
+13-03-19 20:26:16,217 [main] Done read of logfile
+13-03-19 20:26:16,218 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog22.log
+13-03-19 20:26:20,039 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:27:03,031 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog23.log
+13-03-19 20:27:03,192 [main] Done read of logfile
+13-03-19 20:27:03,194 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog23.log
+13-03-19 20:27:06,966 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:28:37,517 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog24.log
+13-03-19 20:28:37,681 [main] Done read of logfile
+13-03-19 20:28:37,683 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog24.log
+13-03-19 20:28:41,416 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:29:01,020 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog25.log
+13-03-19 20:29:01,186 [main] Done read of logfile
+13-03-19 20:29:01,188 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog25.log
+13-03-19 20:29:04,980 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:31:00,825 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog26.log
+13-03-19 20:31:00,826 [main] Done read of logfile
+13-03-19 20:31:00,828 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog26.log
+13-03-19 20:31:04,517 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:31:34,693 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog27.log
+13-03-19 20:31:34,863 [main] Done read of logfile
+13-03-19 20:31:34,866 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog27.log
+13-03-19 20:31:38,721 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:37:40,490 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog28.log
+13-03-19 20:37:40,663 [main] Done read of logfile
+13-03-19 20:37:40,666 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog28.log
+13-03-19 20:37:42,348 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog29.log
+13-03-19 20:38:36,845 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog29.log
+13-03-19 20:38:36,847 [main] Done read of logfile
+13-03-19 20:38:36,848 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog29.log
+13-03-19 20:38:38,473 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog30.log
+13-03-19 20:39:07,383 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog30.log
+13-03-19 20:39:07,385 [main] Done read of logfile
+13-03-19 20:39:07,386 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog30.log
+13-03-19 20:39:08,926 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog31.log
+13-03-19 20:39:41,690 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog31.log
+13-03-19 20:39:41,692 [main] Done read of logfile
+13-03-19 20:39:41,693 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog31.log
+13-03-19 20:39:45,389 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:44:37,690 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog32.log
+13-03-19 20:44:37,853 [main] Done read of logfile
+13-03-19 20:44:37,854 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog32.log
+13-03-19 20:44:40,653 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:46:21,677 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog33.log
+13-03-19 20:46:21,819 [main] Done read of logfile
+13-03-19 20:46:21,821 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog33.log
+13-03-19 20:46:25,548 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:47:51,395 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog34.log
+13-03-19 20:47:51,543 [main] Done read of logfile
+13-03-19 20:47:51,545 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog34.log
+13-03-19 20:47:55,290 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:54:34,670 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog35.log
+13-03-19 20:54:34,781 [main] Done read of logfile
+13-03-19 20:54:34,782 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog35.log
+13-03-19 20:54:38,389 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:56:32,686 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog36.log
+13-03-19 20:56:32,799 [main] Done read of logfile
+13-03-19 20:56:32,801 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog36.log
+13-03-19 20:56:36,483 [main] XAactiveMQ: refreshed XAResource
+13-03-19 20:56:37,714 [main] atomikos MessageConsumer proxy for ActiveMQMessageConsumer { value=ID:davenkin-Aspire-S3-391-46533-1363697790651-3:2:4:1, started=true }: The JMS session you are using requires a JTA transaction context for the calling thread and none was found.
+Please correct your code to do one of the following: 
+1. start a JTA transaction if you want your JMS operations to be subject to JTA commit/rollback, or
+2. increase the maxPoolSize of the AtomikosConnectionFactoryBean to avoid transaction timeout while waiting for a connection, or
+3. create a non-transacted session and do session acknowledgment yourself, or
+4. set localTransactionMode to true so connection-level commit/rollback are enabled.
+13-03-19 20:56:37,718 [main] The JMS session you are using requires a JTA transaction context for the calling thread and none was found.
+Please correct your code to do one of the following: 
+1. start a JTA transaction if you want your JMS operations to be subject to JTA commit/rollback, or
+2. increase the maxPoolSize of the AtomikosConnectionFactoryBean to avoid transaction timeout while waiting for a connection, or
+3. create a non-transacted session and do session acknowledgment yourself, or
+4. set localTransactionMode to true so connection-level commit/rollback are enabled.
+13-03-19 20:56:37,721 [main] Error in proxy
+com.atomikos.jms.AtomikosTransactionRequiredJMSException: The JMS session you are using requires a JTA transaction context for the calling thread and none was found.
+Please correct your code to do one of the following: 
+1. start a JTA transaction if you want your JMS operations to be subject to JTA commit/rollback, or
+2. increase the maxPoolSize of the AtomikosConnectionFactoryBean to avoid transaction timeout while waiting for a connection, or
+3. create a non-transacted session and do session acknowledgment yourself, or
+4. set localTransactionMode to true so connection-level commit/rollback are enabled.
+	at com.atomikos.jms.AtomikosTransactionRequiredJMSException.throwAtomikosTransactionRequiredJMSException(AtomikosTransactionRequiredJMSException.java:13)
+	at com.atomikos.jms.ConsumerProducerSupport.enlist(ConsumerProducerSupport.java:82)
+	at com.atomikos.jms.AtomikosJmsMessageConsumerProxy.receive(AtomikosJmsMessageConsumerProxy.java:45)
+	at com.atomikos.jms.AtomikosJmsMessageConsumerProxy.receive(AtomikosJmsMessageConsumerProxy.java:112)
+	at org.springframework.jms.core.JmsTemplate.doReceive(JmsTemplate.java:774)
+	at org.springframework.jms.core.JmsTemplate.doReceive(JmsTemplate.java:741)
+	at org.springframework.jms.core.JmsTemplate.doReceive(JmsTemplate.java:722)
+	at org.springframework.jms.core.JmsTemplate$9.doInJms(JmsTemplate.java:697)
+	at org.springframework.jms.core.JmsTemplate$9.doInJms(JmsTemplate.java:695)
+	at org.springframework.jms.core.JmsTemplate.execute(JmsTemplate.java:466)
+	at org.springframework.jms.core.JmsTemplate.receiveSelected(JmsTemplate.java:695)
+	at org.springframework.jms.core.JmsTemplate.receive(JmsTemplate.java:677)
+	at org.springframework.jms.core.JmsTemplate.receive(JmsTemplate.java:669)
+	at davenkin.DefaultOrderServiceTest.tearDown(DefaultOrderServiceTest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:37)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:76)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:195)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+13-03-19 20:59:57,900 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog37.log
+13-03-19 20:59:58,031 [main] Done read of logfile
+13-03-19 20:59:58,032 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog37.log
+13-03-19 21:00:02,234 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:02:41,502 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog38.log
+13-03-19 21:02:41,613 [main] Done read of logfile
+13-03-19 21:02:41,614 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog38.log
+13-03-19 21:02:45,460 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:04:23,831 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog39.log
+13-03-19 21:04:23,938 [main] Done read of logfile
+13-03-19 21:04:23,940 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog39.log
+13-03-19 21:04:27,821 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:09:13,984 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog40.log
+13-03-19 21:09:14,099 [main] Done read of logfile
+13-03-19 21:09:14,100 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog40.log
+13-03-19 21:09:17,170 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:10:19,531 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog41.log
+13-03-19 21:10:19,659 [main] Done read of logfile
+13-03-19 21:10:19,660 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog41.log
+13-03-19 21:10:23,325 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:11:07,597 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog42.log
+13-03-19 21:11:07,748 [main] Done read of logfile
+13-03-19 21:11:07,749 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog42.log
+13-03-19 21:11:12,704 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:12:16,972 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog43.log
+13-03-19 21:12:17,113 [main] Done read of logfile
+13-03-19 21:12:17,115 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog43.log
+13-03-19 21:12:21,997 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:13:42,299 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog44.log
+13-03-19 21:13:42,469 [main] Done read of logfile
+13-03-19 21:13:42,470 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog44.log
+13-03-19 21:13:47,333 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:16:05,917 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog45.log
+13-03-19 21:16:06,029 [main] Done read of logfile
+13-03-19 21:16:06,030 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog45.log
+13-03-19 21:16:09,895 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:16:28,668 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog46.log
+13-03-19 21:16:28,780 [main] Done read of logfile
+13-03-19 21:16:28,781 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog46.log
+13-03-19 21:16:32,590 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:20:12,230 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog47.log
+13-03-19 21:20:12,337 [main] Done read of logfile
+13-03-19 21:20:12,339 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog47.log
+13-03-19 21:20:15,935 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:20:52,104 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog48.log
+13-03-19 21:20:52,223 [main] Done read of logfile
+13-03-19 21:20:52,224 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog48.log
+13-03-19 21:20:55,794 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:22:09,687 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog49.log
+13-03-19 21:22:09,795 [main] Done read of logfile
+13-03-19 21:22:09,797 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog49.log
+13-03-19 21:22:13,382 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:23:42,932 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog50.log
+13-03-19 21:23:43,054 [main] Done read of logfile
+13-03-19 21:23:43,056 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog50.log
+13-03-19 21:23:46,672 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:25:59,425 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog51.log
+13-03-19 21:25:59,563 [main] Done read of logfile
+13-03-19 21:25:59,565 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog51.log
+13-03-19 21:26:03,203 [main] ERROR IN RECOVERY
+com.atomikos.datasource.ResourceException: Error in getting XA resource
+	at com.atomikos.datasource.xa.jms.JmsTransactionalResource.refreshXAConnection(JmsTransactionalResource.java:97)
+	at com.atomikos.datasource.xa.XATransactionalResource.getXAResource(XATransactionalResource.java:577)
+	at com.atomikos.datasource.xa.XATransactionalResource.endRecovery(XATransactionalResource.java:859)
+	at com.atomikos.icatch.imp.TransactionServiceImp.recover(TransactionServiceImp.java:609)
+	at com.atomikos.datasource.xa.XATransactionalResource.setRecoveryService(XATransactionalResource.java:707)
+	at com.atomikos.icatch.system.Configuration.addResource(Configuration.java:361)
+	at com.atomikos.jms.AtomikosConnectionFactoryBean.doInit(AtomikosConnectionFactoryBean.java:386)
+	at com.atomikos.jms.AtomikosConnectionFactoryBean.init(AtomikosConnectionFactoryBean.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:607)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:106)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:57)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:248)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:313)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:76)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:195)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+13-03-19 21:28:40,889 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog52.log
+13-03-19 21:28:41,030 [main] Done read of logfile
+13-03-19 21:28:41,031 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog52.log
+13-03-19 21:28:44,666 [main] ERROR IN RECOVERY
+com.atomikos.datasource.ResourceException: Error in getting XA resource
+	at com.atomikos.datasource.xa.jms.JmsTransactionalResource.refreshXAConnection(JmsTransactionalResource.java:97)
+	at com.atomikos.datasource.xa.XATransactionalResource.getXAResource(XATransactionalResource.java:577)
+	at com.atomikos.datasource.xa.XATransactionalResource.endRecovery(XATransactionalResource.java:859)
+	at com.atomikos.icatch.imp.TransactionServiceImp.recover(TransactionServiceImp.java:609)
+	at com.atomikos.datasource.xa.XATransactionalResource.setRecoveryService(XATransactionalResource.java:707)
+	at com.atomikos.icatch.system.Configuration.addResource(Configuration.java:361)
+	at com.atomikos.jms.AtomikosConnectionFactoryBean.doInit(AtomikosConnectionFactoryBean.java:386)
+	at com.atomikos.jms.AtomikosConnectionFactoryBean.init(AtomikosConnectionFactoryBean.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:607)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:106)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:57)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:248)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:313)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:76)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:195)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+13-03-19 21:36:34,916 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog53.log
+13-03-19 21:36:35,056 [main] Done read of logfile
+13-03-19 21:36:35,057 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog53.log
+13-03-19 21:36:38,952 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:37:21,260 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog54.log
+13-03-19 21:37:21,261 [main] Done read of logfile
+13-03-19 21:37:21,263 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog54.log
+13-03-19 21:37:24,906 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:40:35,348 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog55.log
+13-03-19 21:40:35,494 [main] Done read of logfile
+13-03-19 21:40:35,495 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog55.log
+13-03-19 21:40:39,155 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:42:34,135 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog56.log
+13-03-19 21:42:34,136 [main] Done read of logfile
+13-03-19 21:42:34,138 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog56.log
+13-03-19 21:42:37,761 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:46:50,887 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog57.log
+13-03-19 21:46:51,029 [main] Done read of logfile
+13-03-19 21:46:51,031 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog57.log
+13-03-19 21:46:54,703 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:50:57,513 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog58.log
+13-03-19 21:50:57,652 [main] Done read of logfile
+13-03-19 21:50:57,654 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog58.log
+13-03-19 21:51:01,331 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:53:14,609 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog59.log
+13-03-19 21:53:14,758 [main] Done read of logfile
+13-03-19 21:53:14,760 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog59.log
+13-03-19 21:53:18,427 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:54:35,913 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog60.log
+13-03-19 21:54:36,073 [main] Done read of logfile
+13-03-19 21:54:36,074 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog60.log
+13-03-19 21:54:39,692 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:55:10,292 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog61.log
+13-03-19 21:55:10,441 [main] Done read of logfile
+13-03-19 21:55:10,443 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog61.log
+13-03-19 21:55:14,195 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:55:51,560 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog62.log
+13-03-19 21:55:51,712 [main] Done read of logfile
+13-03-19 21:55:51,713 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog62.log
+13-03-19 21:55:55,394 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:56:21,733 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog63.log
+13-03-19 21:56:21,884 [main] Done read of logfile
+13-03-19 21:56:21,885 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog63.log
+13-03-19 21:56:25,624 [main] XAactiveMQ: refreshed XAResource
+13-03-19 21:56:38,949 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog64.log
+13-03-19 21:56:39,087 [main] Done read of logfile
+13-03-19 21:56:39,089 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog64.log
+13-03-19 21:56:42,749 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:02:38,135 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog65.log
+13-03-19 22:02:38,281 [main] Done read of logfile
+13-03-19 22:02:38,282 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog65.log
+13-03-19 22:02:41,963 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:03:01,586 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog66.log
+13-03-19 22:03:01,740 [main] Done read of logfile
+13-03-19 22:03:01,741 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog66.log
+13-03-19 22:03:05,232 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:03:56,999 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog67.log
+13-03-19 22:03:57,141 [main] Done read of logfile
+13-03-19 22:03:57,142 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog67.log
+13-03-19 22:04:00,692 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:07:22,848 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog68.log
+13-03-19 22:07:23,025 [main] Done read of logfile
+13-03-19 22:07:23,027 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog68.log
+13-03-19 22:07:27,358 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:08:02,561 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog69.log
+13-03-19 22:08:02,746 [main] Done read of logfile
+13-03-19 22:08:02,748 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog69.log
+13-03-19 22:08:07,249 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:08:39,076 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog70.log
+13-03-19 22:08:39,077 [main] Done read of logfile
+13-03-19 22:08:39,079 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog70.log
+13-03-19 22:08:43,595 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:09:41,784 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog71.log
+13-03-19 22:09:41,786 [main] Done read of logfile
+13-03-19 22:09:41,788 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog71.log
+13-03-19 22:09:46,305 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:10:18,804 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog72.log
+13-03-19 22:10:18,946 [main] Done read of logfile
+13-03-19 22:10:18,948 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog72.log
+13-03-19 22:10:22,594 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:10:36,651 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog73.log
+13-03-19 22:10:36,792 [main] Done read of logfile
+13-03-19 22:10:36,793 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog73.log
+13-03-19 22:10:40,477 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:11:43,608 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog74.log
+13-03-19 22:11:43,759 [main] Done read of logfile
+13-03-19 22:11:43,760 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog74.log
+13-03-19 22:11:47,390 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:12:21,514 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog75.log
+13-03-19 22:12:21,653 [main] Done read of logfile
+13-03-19 22:12:21,655 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog75.log
+13-03-19 22:12:25,362 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:12:33,185 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog76.log
+13-03-19 22:12:33,336 [main] Done read of logfile
+13-03-19 22:12:33,337 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog76.log
+13-03-19 22:12:36,963 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:13:06,224 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog77.log
+13-03-19 22:13:06,368 [main] Done read of logfile
+13-03-19 22:13:06,370 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog77.log
+13-03-19 22:13:10,064 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:16:32,240 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog78.log
+13-03-19 22:16:32,371 [main] Done read of logfile
+13-03-19 22:16:32,372 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog78.log
+13-03-19 22:16:35,950 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:17:04,785 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog79.log
+13-03-19 22:17:04,902 [main] Done read of logfile
+13-03-19 22:17:04,904 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog79.log
+13-03-19 22:17:08,508 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:17:19,014 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog80.log
+13-03-19 22:17:19,125 [main] Done read of logfile
+13-03-19 22:17:19,126 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog80.log
+13-03-19 22:17:22,661 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:17:45,811 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog81.log
+13-03-19 22:17:45,962 [main] Done read of logfile
+13-03-19 22:17:45,963 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog81.log
+13-03-19 22:17:49,473 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:21:37,116 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog82.log
+13-03-19 22:21:37,260 [main] Done read of logfile
+13-03-19 22:21:37,261 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog82.log
+13-03-19 22:21:40,752 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:21:50,548 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog83.log
+13-03-19 22:21:50,662 [main] Done read of logfile
+13-03-19 22:21:50,675 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog83.log
+13-03-19 22:21:54,240 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:22:25,967 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog84.log
+13-03-19 22:22:26,121 [main] Done read of logfile
+13-03-19 22:22:26,122 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog84.log
+13-03-19 22:22:30,588 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:27:42,457 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog85.log
+13-03-19 22:27:42,458 [main] Done read of logfile
+13-03-19 22:27:42,459 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog85.log
+13-03-19 22:27:46,166 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:28:16,570 [Outgoing Connection [4b2d5772-9b56-4b7b-bfa0-e06a0e781982 port:52530, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]:0 worker] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog86.log
+13-03-19 22:28:16,675 [Outgoing Connection [4b2d5772-9b56-4b7b-bfa0-e06a0e781982 port:52530, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]:0 worker] Done read of logfile
+13-03-19 22:28:16,676 [Outgoing Connection [4b2d5772-9b56-4b7b-bfa0-e06a0e781982 port:52530, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]:0 worker] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog86.log
+13-03-19 22:28:20,168 [Outgoing Connection [4b2d5772-9b56-4b7b-bfa0-e06a0e781982 port:52530, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]:0 worker] XAactiveMQ: refreshed XAResource
+13-03-19 22:38:34,433 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog87.log
+13-03-19 22:38:34,581 [main] Done read of logfile
+13-03-19 22:38:34,583 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog87.log
+13-03-19 22:38:38,053 [main] ERROR IN RECOVERY
+com.atomikos.datasource.ResourceException: Error in getting XA resource
+	at com.atomikos.datasource.xa.jms.JmsTransactionalResource.refreshXAConnection(JmsTransactionalResource.java:97)
+	at com.atomikos.datasource.xa.XATransactionalResource.getXAResource(XATransactionalResource.java:577)
+	at com.atomikos.datasource.xa.XATransactionalResource.endRecovery(XATransactionalResource.java:859)
+	at com.atomikos.icatch.imp.TransactionServiceImp.recover(TransactionServiceImp.java:609)
+	at com.atomikos.datasource.xa.XATransactionalResource.setRecoveryService(XATransactionalResource.java:707)
+	at com.atomikos.icatch.system.Configuration.addResource(Configuration.java:361)
+	at com.atomikos.jms.AtomikosConnectionFactoryBean.doInit(AtomikosConnectionFactoryBean.java:386)
+	at com.atomikos.jms.AtomikosConnectionFactoryBean.init(AtomikosConnectionFactoryBean.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:607)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:106)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:57)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:248)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:313)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:76)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:195)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+13-03-19 22:39:22,206 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog88.log
+13-03-19 22:39:22,332 [main] Done read of logfile
+13-03-19 22:39:22,333 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog88.log
+13-03-19 22:39:25,729 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:39:55,074 [main] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog89.log
+13-03-19 22:39:55,226 [main] Done read of logfile
+13-03-19 22:39:55,228 [main] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog89.log
+13-03-19 22:39:58,789 [main] XAactiveMQ: refreshed XAResource
+13-03-19 22:40:48,789 [Outgoing Connection [e38b0ecf-5557-4d84-9dfe-0251e19d2e05 port:56920, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]:0 worker] Starting read of logfile /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog90.log
+13-03-19 22:40:48,898 [Outgoing Connection [e38b0ecf-5557-4d84-9dfe-0251e19d2e05 port:56920, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]:0 worker] Done read of logfile
+13-03-19 22:40:48,899 [Outgoing Connection [e38b0ecf-5557-4d84-9dfe-0251e19d2e05 port:56920, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]:0 worker] Logfile closed: /home/davenkin/github/jta+atomikos+hibernate+activemq/./tmlog90.log
+13-03-19 22:40:52,195 [Outgoing Connection [e38b0ecf-5557-4d84-9dfe-0251e19d2e05 port:56920, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]:0 worker] XAactiveMQ: refreshed XAResource
