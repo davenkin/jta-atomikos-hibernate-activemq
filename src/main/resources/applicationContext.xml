@@ -81,11 +81,6 @@
         <constructor-arg value="ORDER.QUEUE"/>
     </bean>
 
-    <bean id="orderService" class="davenkin.DefaultOrderService">
-        <property name="jmsTemplate" ref="jmsTemplate"/>
-        <property name="sessionFactory" ref="sessionFactory"/>
-    </bean>
-
 
     <bean id="oxmMessageConverter"
           class="org.springframework.jms.support.converter.MarshallingMessageConverter">
@@ -96,5 +91,10 @@
     <oxm:jaxb2-marshaller id="marshaller">
         <oxm:class-to-be-bound name="davenkin.Order"/>
     </oxm:jaxb2-marshaller>
+
+    <bean id="orderService" class="davenkin.DefaultOrderService">
+        <property name="jmsTemplate" ref="jmsTemplate"/>
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
 
 </beans>
