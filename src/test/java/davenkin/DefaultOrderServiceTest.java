@@ -1,7 +1,10 @@
 package davenkin;
 
 import org.apache.activemq.broker.BrokerService;
-import org.junit.*;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -9,12 +12,9 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import sun.security.provider.SystemSigner;
 
-import javax.jms.*;
+import javax.jms.JMSException;
 import javax.sql.DataSource;
-import java.util.Map;
-import java.util.Random;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNull;
@@ -27,13 +27,13 @@ import static junit.framework.Assert.assertNull;
  * To change this template use File | Settings | File Templates.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations={"classpath:applicationContext.xml","classpath:testContext.xml"})
+@ContextConfiguration(locations = {"classpath:applicationContext.xml", "classpath:testContext.xml"})
 public class DefaultOrderServiceTest {
     @Autowired
     private OrderService orderService;
 
     @Autowired
-    private DataSource  dataSource;
+    private DataSource dataSource;
 
     @Autowired
     @Qualifier("testJmsTemplate")
@@ -56,13 +56,12 @@ public class DefaultOrderServiceTest {
     @Before
     public void clearQueue() throws JMSException {
         jmsTemplate.setReceiveTimeout(1000);
-        while (jmsTemplate.receive()!=null)  ;
+        while (jmsTemplate.receive() != null) ;
     }
 
 
-
     @Test
-    public void makeOrder(){
+    public void makeOrder() {
         orderService.makeOrder(createOrder());
         JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
         assertEquals(1, jdbcTemplate.queryForInt("SELECT COUNT(*) FROM USER_ORDER"));
@@ -72,8 +71,7 @@ public class DefaultOrderServiceTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void failToMakeOrder()
-    {
+    public void failToMakeOrder() {
         orderService.makeOrder(null);
         JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
         assertEquals(0, jdbcTemplate.queryForInt("SELECT COUNT(*) FROM USER_ORDER"));
@@ -90,11 +88,11 @@ public class DefaultOrderServiceTest {
     }
 
     private String randomName() {
-        return "book"+ System.currentTimeMillis();
+        return "book" + System.currentTimeMillis();
     }
 
     private double randomPrice() {
         String randomTimeString = String.valueOf(System.currentTimeMillis());
-        return Double.parseDouble(randomTimeString.substring(randomTimeString.length()-3));
+        return Double.parseDouble(randomTimeString.substring(randomTimeString.length() - 3));
     }
 }
