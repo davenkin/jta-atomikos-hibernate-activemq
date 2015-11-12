@@ -73,7 +73,7 @@
         <property name="connectionFactory" ref="amqConnectionFactory"/>
         <property name="receiveTimeout" value="2000" />
         <property name="defaultDestination" ref="orderQueue"/>
-        <property name="sessionTransacted" value="true" />
+        <property name="sessionTransacted" value="false" />
         <property name="messageConverter" ref="oxmMessageConverter"/>
     </bean>
 

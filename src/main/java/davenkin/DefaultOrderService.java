@@ -14,9 +14,8 @@ public class DefaultOrderService  implements OrderService{
     @Transactional
     public void makeOrder(Order order) {
         Session session = sessionFactory.getCurrentSession();
-        session.save(order);
         jmsTemplate.convertAndSend(order);
-
+        session.save(order);
     }
 
     @Required
