@@ -1,5 +1,5 @@
 ReadMe
-
+Please use JDK1.6/1.7, JDK8 will NOT work.
 Run:
 
 (1)gradle wrapper
